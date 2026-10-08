@@ -1,0 +1,8 @@
+{
+  "held_out": "contractnli",
+  "status": "success",
+  "train_samples": 8185,
+  "val_samples": 909,
+  "model_dir": "/Users/steven/code/legal-kit/models/legal-embeddings-lodo-contractnli",
+  "timestamp": "2026-03-19T13:37:37.745142"
+}

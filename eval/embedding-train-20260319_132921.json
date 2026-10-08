@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "base_model": "BAAI/bge-base-en-v1.5",
+  "epochs": 3,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_seq_length": 256,
+  "warmup_ratio": 0.1,
+  "train_samples": 7199,
+  "val_samples": 300,
+  "elapsed_seconds": 208.83,
+  "output_path": "/vol/models/legal-embeddings/model",
+  "timestamp": "2026-03-19T18:29:15.104861"
+}

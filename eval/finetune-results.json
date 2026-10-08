@@ -1,0 +1,19 @@
+{
+  "base_model": "microsoft/deberta-v3-base",
+  "epochs": 3,
+  "batch_size": 16,
+  "learning_rate": 2e-05,
+  "train_samples": 2426,
+  "test_metrics": {
+    "loss": 1.425668478012085,
+    "accuracy": 0.264026402640264,
+    "entailed_f1": 0.41775456919060044,
+    "partially_entailed_f1": 0.0,
+    "contradicted_f1": 0.0,
+    "neutral_f1": 0.0,
+    "macro_f1": 0.10443864229765011,
+    "runtime": 3.3187,
+    "samples_per_second": 91.302,
+    "steps_per_second": 11.45
+  }
+}

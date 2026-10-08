@@ -1,0 +1,8 @@
+{
+  "held_out": "cuad",
+  "status": "success",
+  "train_samples": 3839,
+  "val_samples": 426,
+  "model_dir": "/Users/steven/code/legal-kit/models/legal-embeddings-lodo-cuad",
+  "timestamp": "2026-03-19T13:25:03.535423"
+}

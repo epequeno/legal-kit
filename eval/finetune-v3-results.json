@@ -1,0 +1,37 @@
+{
+  "version": "v3",
+  "num_classes": 3,
+  "class_names": [
+    "entailed",
+    "contradicted",
+    "neutral"
+  ],
+  "class_weights": [
+    1.0,
+    1.5297029702970297,
+    1.2622549019607843
+  ],
+  "base_model": "cross-encoder/nli-deberta-v3-large",
+  "epochs": 5,
+  "batch_size": 16,
+  "learning_rate": 1e-05,
+  "train_samples": 6199,
+  "val_samples": 906,
+  "test_samples": 453,
+  "training_time_seconds": 2846.611830472946,
+  "timestamp": "2026-03-19T20:46:17.184349",
+  "test_metrics": {
+    "loss": 0.21052449941635132,
+    "accuracy": 0.9646799116997793,
+    "entailed_f1": 0.967741935483871,
+    "contradicted_f1": 0.9576271186440678,
+    "neutral_f1": 0.9664429530201343,
+    "macro_f1": 0.9639373357160244,
+    "binary_accuracy": 0.9735099337748344,
+    "supported_precision": 0.9574468085106383,
+    "supported_recall": 0.9782608695652174,
+    "runtime": 11.8901,
+    "samples_per_second": 38.099,
+    "steps_per_second": 4.794
+  }
+}

@@ -1,0 +1,251 @@
+{
+  "timestamp": "2026-03-17T15:59:43.311641",
+  "top_k": 64,
+  "queries_evaluated": 40,
+  "configs": [
+    {
+      "label": "semantic",
+      "retrieval_method": "semantic",
+      "use_cross_references": false,
+      "description": "Baseline: embedding cosine similarity only",
+      "elapsed_seconds": 20.34,
+      "overall": {
+        "recall@1": 0.2963,
+        "recall@2": 0.3091,
+        "recall@4": 0.6114,
+        "recall@8": 0.7804,
+        "recall@16": 0.9414,
+        "recall@32": 0.9646,
+        "recall@64": 0.9896
+      },
+      "per_dataset": {
+        "contractnli": {
+          "recall@1": 1.0,
+          "recall@2": 1.0,
+          "recall@4": 1.0,
+          "recall@8": 1.0,
+          "recall@16": 1.0,
+          "recall@32": 1.0,
+          "recall@64": 1.0
+        },
+        "cuad": {
+          "recall@1": 0.0,
+          "recall@2": 0.0,
+          "recall@4": 0.7267,
+          "recall@8": 0.8267,
+          "recall@16": 0.9651,
+          "recall@32": 0.9991,
+          "recall@64": 0.9991
+        },
+        "maud": {
+          "recall@1": 0.1105,
+          "recall@2": 0.1105,
+          "recall@4": 0.1393,
+          "recall@8": 0.5824,
+          "recall@16": 0.804,
+          "recall@32": 0.8628,
+          "recall@64": 0.9628
+        },
+        "privacy_qa": {
+          "recall@1": 0.0746,
+          "recall@2": 0.1257,
+          "recall@4": 0.5795,
+          "recall@8": 0.7125,
+          "recall@16": 0.9966,
+          "recall@32": 0.9966,
+          "recall@64": 0.9966
+        }
+      }
+    },
+    {
+      "label": "bm25",
+      "retrieval_method": "bm25",
+      "use_cross_references": false,
+      "description": "BM25 keyword search only (no embeddings)",
+      "elapsed_seconds": 19.65,
+      "overall": {
+        "recall@1": 0.0323,
+        "recall@2": 0.05,
+        "recall@4": 0.1749,
+        "recall@8": 0.3189,
+        "recall@16": 0.5513,
+        "recall@32": 0.6856,
+        "recall@64": 0.7476
+      },
+      "per_dataset": {
+        "contractnli": {
+          "recall@1": 0.1,
+          "recall@2": 0.1,
+          "recall@4": 0.1,
+          "recall@8": 0.1,
+          "recall@16": 0.1,
+          "recall@32": 0.1,
+          "recall@64": 0.1
+        },
+        "cuad": {
+          "recall@1": 0.0,
+          "recall@2": 0.0,
+          "recall@4": 0.4099,
+          "recall@8": 0.6479,
+          "recall@16": 0.8533,
+          "recall@32": 0.9991,
+          "recall@64": 0.9991
+        },
+        "maud": {
+          "recall@1": 0.0,
+          "recall@2": 0.0,
+          "recall@4": 0.0389,
+          "recall@8": 0.1365,
+          "recall@16": 0.5752,
+          "recall@32": 0.6468,
+          "recall@64": 0.8947
+        },
+        "privacy_qa": {
+          "recall@1": 0.029,
+          "recall@2": 0.0998,
+          "recall@4": 0.151,
+          "recall@8": 0.3911,
+          "recall@16": 0.6767,
+          "recall@32": 0.9966,
+          "recall@64": 0.9966
+        }
+      }
+    },
+    {
+      "label": "hybrid",
+      "retrieval_method": "hybrid",
+      "use_cross_references": false,
+      "description": "Semantic + BM25 via Reciprocal Rank Fusion",
+      "elapsed_seconds": 19.25,
+      "overall": {
+        "recall@1": 0.2686,
+        "recall@2": 0.2984,
+        "recall@4": 0.5073,
+        "recall@8": 0.6472,
+        "recall@16": 0.9474,
+        "recall@32": 0.9896,
+        "recall@64": 0.9965
+      },
+      "per_dataset": {
+        "contractnli": {
+          "recall@1": 1.0,
+          "recall@2": 1.0,
+          "recall@4": 1.0,
+          "recall@8": 1.0,
+          "recall@16": 1.0,
+          "recall@32": 1.0,
+          "recall@64": 1.0
+        },
+        "cuad": {
+          "recall@1": 0.0,
+          "recall@2": 0.0,
+          "recall@4": 0.67,
+          "recall@8": 0.7459,
+          "recall@16": 0.9459,
+          "recall@32": 0.9991,
+          "recall@64": 0.9991
+        },
+        "maud": {
+          "recall@1": 0.0,
+          "recall@2": 0.0389,
+          "recall@4": 0.1389,
+          "recall@8": 0.4215,
+          "recall@16": 0.8472,
+          "recall@32": 0.9628,
+          "recall@64": 0.9904
+        },
+        "privacy_qa": {
+          "recall@1": 0.0746,
+          "recall@2": 0.1547,
+          "recall@4": 0.2205,
+          "recall@8": 0.4215,
+          "recall@16": 0.9966,
+          "recall@32": 0.9966,
+          "recall@64": 0.9966
+        }
+      }
+    },
+    {
+      "label": "hybrid+xref",
+      "retrieval_method": "hybrid",
+      "use_cross_references": true,
+      "description": "Hybrid + cross-reference section expansion",
+      "elapsed_seconds": 22.63,
+      "overall": {
+        "recall@1": 0.2686,
+        "recall@2": 0.2984,
+        "recall@4": 0.5254,
+        "recall@8": 0.6472,
+        "recall@16": 0.9474,
+        "recall@32": 0.9896,
+        "recall@64": 0.9965
+      },
+      "per_dataset": {
+        "contractnli": {
+          "recall@1": 1.0,
+          "recall@2": 1.0,
+          "recall@4": 1.0,
+          "recall@8": 1.0,
+          "recall@16": 1.0,
+          "recall@32": 1.0,
+          "recall@64": 1.0
+        },
+        "cuad": {
+          "recall@1": 0.0,
+          "recall@2": 0.0,
+          "recall@4": 0.67,
+          "recall@8": 0.7459,
+          "recall@16": 0.9459,
+          "recall@32": 0.9991,
+          "recall@64": 0.9991
+        },
+        "maud": {
+          "recall@1": 0.0,
+          "recall@2": 0.0389,
+          "recall@4": 0.2112,
+          "recall@8": 0.4215,
+          "recall@16": 0.8472,
+          "recall@32": 0.9628,
+          "recall@64": 0.9904
+        },
+        "privacy_qa": {
+          "recall@1": 0.0746,
+          "recall@2": 0.1547,
+          "recall@4": 0.2205,
+          "recall@8": 0.4215,
+          "recall@16": 0.9966,
+          "recall@32": 0.9966,
+          "recall@64": 0.9966
+        }
+      }
+    }
+  ],
+  "marginal_deltas": {
+    "@64": [
+      {
+        "label": "semantic",
+        "recall": 0.9896039679652484,
+        "delta_pp": 0.9896039679652484,
+        "description": "Baseline: embedding cosine similarity only"
+      },
+      {
+        "label": "bm25",
+        "recall": 0.7475879637606722,
+        "delta_pp": -0.24201600420457625,
+        "description": "BM25 keyword search only (no embeddings)"
+      },
+      {
+        "label": "hybrid",
+        "recall": 0.996527246998354,
+        "delta_pp": 0.24893928323768189,
+        "description": "Semantic + BM25 via Reciprocal Rank Fusion"
+      },
+      {
+        "label": "hybrid+xref",
+        "recall": 0.996527246998354,
+        "delta_pp": 0.0,
+        "description": "Hybrid + cross-reference section expansion"
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+SOFTWARE LICENSE AGREEMENT
+
+This Software License Agreement ("Agreement") is entered into as of February 15, 2024, between Orion Software Corp. ("Licensor") and Meridian Enterprises Ltd. ("Licensee").
+
+I. DEFINITIONS
+
+"Licensed Software" means the Licensor's proprietary software product known as OrionSuite, including all updates, upgrades, and modifications thereto provided by Licensor under this Agreement.
+
+"Documentation" means the user manuals, technical specifications, and other written materials relating to the Licensed Software provided by Licensor to Licensee.
+
+"Subscription Term" means the period during which Licensee is authorized to use the Licensed Software, as set forth in the applicable Order Form.
+
+II. LICENSE GRANT
+
+Licensor hereby grants to Licensee a non-exclusive, non-transferable, limited license to:
+
+(a) install and use the Licensed Software solely for Licensee's internal business purposes during the Subscription Term;
+
+(b) make a reasonable number of copies of the Licensed Software for backup and archival purposes only;
+
+(c) use the Documentation in connection with Licensee's permitted use of the Licensed Software.
+
+III. RESTRICTIONS
+
+Licensee shall not, and shall not permit any third party to:
+
+(a) sublicense, sell, resell, transfer, assign, or otherwise dispose of the Licensed Software;
+
+(b) modify, translate, adapt, or create derivative works based upon the Licensed Software;
+
+(c) reverse engineer, disassemble, decompile, or otherwise attempt to derive the source code of the Licensed Software.
+
+IV. FEES AND PAYMENT
+
+Licensee shall pay Licensor the subscription fees set forth in the applicable Order Form. All fees are due within thirty (30) days of invoice. Fees not paid when due shall accrue interest at the rate of one and one-half percent (1.5%) per month.
+
+V. TERM AND TERMINATION
+
+This Agreement shall commence on the Effective Date and continue for the initial Subscription Term specified in the Order Form. Either party may terminate this Agreement upon written notice if the other party materially breaches any provision of this Agreement and fails to cure such breach within thirty (30) days after receiving written notice thereof.

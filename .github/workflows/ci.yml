@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  check:
+    name: Check
+    runs-on: macos-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Cache Rust
+        uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: tauri-app/src-tauri
+
+      - name: Install Elm
+        run: npm install --prefix tauri-app
+
+      - name: Elm type-check
+        run: cd tauri-app && npm run check
+
+      - name: Cargo check
+        run: cd tauri-app/src-tauri && cargo check
+
+      - name: Cargo clippy
+        run: cd tauri-app/src-tauri && cargo clippy -- -D warnings

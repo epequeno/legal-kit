@@ -1,0 +1,45 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.env
+
+# Rust
+tauri-app/src-tauri/target/
+
+# Elm
+tauri-app/elm-stuff/
+tauri-app/dist/elm.js
+
+# Node
+tauri-app/node_modules/
+
+# macOS
+.DS_Store
+
+# --- Added when the repo was tidied for publication (2026-10-08) ---
+
+# Editor / vault state — machine-specific, never publish
+.obsidian/
+docs/.obsidian/
+
+# Third-party data and derived training artifacts — never publish:
+# 442 MB of datasets (ContractNLI/MAUD/CUAD/PrivacyQA carry their own terms)
+# and 434 MB of LoRA adapters plus optimizer checkpoints.
+data/
+python/legal-reasoning-sft/
+models/*.safetensors
+models/*.gguf
+models/*.onnx
+*.safetensors
+optimizer.pt
+
+# Local caches and scratch
+.pytest_cache/
+.legalkit_cache/

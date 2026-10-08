@@ -1,0 +1,15 @@
+{
+  "app": {
+    "elm": {
+      "development": {
+        "debugger": true
+      },
+      "production": {
+        "debugger": false
+      }
+    },
+    "router": {
+      "useHashRouting": false
+    }
+  }
+}

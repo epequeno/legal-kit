@@ -1,0 +1,12 @@
+{
+  "name": "legalkit-frontend",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "elm-land server",
+    "build": "elm-land build",
+    "dev": "elm reactor"
+  },
+  "devDependencies": {
+    "elm-land": "^0.21.0"
+  }
+}

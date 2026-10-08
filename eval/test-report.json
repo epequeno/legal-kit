@@ -1,0 +1,302 @@
+{
+  "question": "What is the indemnification cap and what exceptions apply?",
+  "answer": "Based on the provided document excerpts, the indemnification cap and applicable exceptions are as follows:\n\n## Indemnification Cap\n\nThe aggregate liability cap for Seller's indemnification obligations is Five Million Dollars ($5,000,000) [\u00a78.3(b)]. Similarly, the aggregate liability cap for Buyer's indemnification obligations is also Five Million Dollars ($5,000,000) [\u00a78.3(c)].\n\n## Exception to the Cap\n\nThe cap on Seller's liability \"shall not apply to Losses arising from fraud or willful misconduct by Seller\" [\u00a78.3(b)]. This means that for claims involving fraud or willful misconduct by the Seller, there is no monetary limit on the Seller's indemnification liability.\n\n## Additional Context\n\nThe excerpts also reveal that there is a threshold requirement before indemnification obligations are triggered. Seller is not required to indemnify until \"the aggregate amount of Losses exceeds Two Hundred Fifty Thousand Dollars ($250,000) (the 'Basket'), at which point Seller shall be liable for all Losses in excess of the Basket\" [\u00a78.3(a)].\n\nFurthermore, the indemnification provisions serve as \"the sole and exclusive remedy of the parties with respect to any breach of this Agreement,\" except in cases of fraud [\u00a78.5].\n\n**Missing Information**: The excerpts do not specify whether there are any exceptions to the Buyer's indemnification cap, or whether the fraud exception that applies to the Seller's cap also applies to the Buyer's obligations.",
+  "claims": [
+    {
+      "text": "Based on the provided document excerpts, the indemnification cap and applicable exceptions are as follows:",
+      "citations": [],
+      "confidence": {
+        "level": "low",
+        "score": 0.0,
+        "corroboration_count": 0,
+        "flags": [
+          "no_citations"
+        ]
+      },
+      "has_hedging": false,
+      "is_gap": false
+    },
+    {
+      "text": "## Indemnification Cap",
+      "citations": [],
+      "confidence": {
+        "level": "low",
+        "score": 0.0,
+        "corroboration_count": 0,
+        "flags": [
+          "no_citations"
+        ]
+      },
+      "has_hedging": false,
+      "is_gap": false
+    },
+    {
+      "text": "The aggregate liability cap for Seller's indemnification obligations is Five Million Dollars ($5,000,000) .",
+      "citations": [
+        {
+          "section_id": "\u00a78.3(b)",
+          "section_path": [],
+          "source_text": "",
+          "char_span": [
+            0,
+            0
+          ],
+          "retrieval_method": "",
+          "retrieval_score": 0.0,
+          "exists": false,
+          "quote_similarity": 0.0,
+          "entailment": "neutral",
+          "entailment_score": 0.0,
+          "entailment_explanation": "",
+          "status": "unverified"
+        }
+      ],
+      "confidence": {
+        "level": "low",
+        "score": 0.0,
+        "corroboration_count": 0,
+        "flags": [
+          "hallucinated_reference",
+          "single_source"
+        ]
+      },
+      "has_hedging": false,
+      "is_gap": false
+    },
+    {
+      "text": "Similarly, the aggregate liability cap for Buyer's indemnification obligations is also Five Million Dollars ($5,000,000) .",
+      "citations": [
+        {
+          "section_id": "\u00a78.3(c)",
+          "section_path": [],
+          "source_text": "",
+          "char_span": [
+            0,
+            0
+          ],
+          "retrieval_method": "",
+          "retrieval_score": 0.0,
+          "exists": false,
+          "quote_similarity": 0.0,
+          "entailment": "neutral",
+          "entailment_score": 0.0,
+          "entailment_explanation": "",
+          "status": "unverified"
+        }
+      ],
+      "confidence": {
+        "level": "low",
+        "score": 0.0,
+        "corroboration_count": 0,
+        "flags": [
+          "hallucinated_reference",
+          "single_source"
+        ]
+      },
+      "has_hedging": false,
+      "is_gap": false
+    },
+    {
+      "text": "## Exception to the Cap",
+      "citations": [],
+      "confidence": {
+        "level": "low",
+        "score": 0.0,
+        "corroboration_count": 0,
+        "flags": [
+          "no_citations"
+        ]
+      },
+      "has_hedging": false,
+      "is_gap": false
+    },
+    {
+      "text": "The cap on Seller's liability \"shall not apply to Losses arising from fraud or willful misconduct by Seller\" .",
+      "citations": [
+        {
+          "section_id": "\u00a78.3(b)",
+          "section_path": [],
+          "source_text": "",
+          "char_span": [
+            0,
+            0
+          ],
+          "retrieval_method": "",
+          "retrieval_score": 0.0,
+          "exists": false,
+          "quote_similarity": 0.0,
+          "entailment": "neutral",
+          "entailment_score": 0.0,
+          "entailment_explanation": "",
+          "status": "unverified"
+        }
+      ],
+      "confidence": {
+        "level": "low",
+        "score": 0.0,
+        "corroboration_count": 0,
+        "flags": [
+          "hallucinated_reference",
+          "single_source"
+        ]
+      },
+      "has_hedging": false,
+      "is_gap": false
+    },
+    {
+      "text": "This means that for claims involving fraud or willful misconduct by the Seller, there is no monetary limit on the Seller's indemnification liability.",
+      "citations": [],
+      "confidence": {
+        "level": "low",
+        "score": 0.0,
+        "corroboration_count": 0,
+        "flags": [
+          "no_citations"
+        ]
+      },
+      "has_hedging": false,
+      "is_gap": false
+    },
+    {
+      "text": "## Additional Context",
+      "citations": [],
+      "confidence": {
+        "level": "low",
+        "score": 0.0,
+        "corroboration_count": 0,
+        "flags": [
+          "no_citations"
+        ]
+      },
+      "has_hedging": false,
+      "is_gap": false
+    },
+    {
+      "text": "The excerpts also reveal that there is a threshold requirement before indemnification obligations are triggered.",
+      "citations": [],
+      "confidence": {
+        "level": "low",
+        "score": 0.0,
+        "corroboration_count": 0,
+        "flags": [
+          "no_citations"
+        ]
+      },
+      "has_hedging": false,
+      "is_gap": false
+    },
+    {
+      "text": "Seller is not required to indemnify until \"the aggregate amount of Losses exceeds Two Hundred Fifty Thousand Dollars ($250,000) (the 'Basket'), at which point Seller shall be liable for all Losses in excess of the Basket\" .",
+      "citations": [
+        {
+          "section_id": "\u00a78.3(a)",
+          "section_path": [],
+          "source_text": "",
+          "char_span": [
+            0,
+            0
+          ],
+          "retrieval_method": "",
+          "retrieval_score": 0.0,
+          "exists": false,
+          "quote_similarity": 0.0,
+          "entailment": "neutral",
+          "entailment_score": 0.0,
+          "entailment_explanation": "",
+          "status": "unverified"
+        }
+      ],
+      "confidence": {
+        "level": "low",
+        "score": 0.0,
+        "corroboration_count": 0,
+        "flags": [
+          "hallucinated_reference",
+          "single_source"
+        ]
+      },
+      "has_hedging": false,
+      "is_gap": false
+    },
+    {
+      "text": "Furthermore, the indemnification provisions serve as \"the sole and exclusive remedy of the parties with respect to any breach of this Agreement,\" except in cases of fraud .",
+      "citations": [
+        {
+          "section_id": "\u00a78.5",
+          "section_path": [
+            "sample_contract",
+            "Article-VIII",
+            "\u00a78.5"
+          ],
+          "source_text": "Except in the case of fraud, the indemnification provisions of this Article VIII shall be the sole and exclusive remedy of the parties with respect to any breach of this Agreement.",
+          "char_span": [
+            14277,
+            14489
+          ],
+          "retrieval_method": "hybrid",
+          "retrieval_score": 0.03278688524590164,
+          "exists": true,
+          "quote_similarity": 0.9777777777777777,
+          "entailment": "entailed",
+          "entailment_score": 1.0,
+          "entailment_explanation": "The claim directly quotes the passage with only minor stylistic changes (adding quotation marks and a comma before \"except\"), accurately capturing both the sole remedy provision and the fraud exception.",
+          "status": "verified"
+        }
+      ],
+      "confidence": {
+        "level": "high",
+        "score": 0.899,
+        "corroboration_count": 1,
+        "flags": [
+          "single_source"
+        ]
+      },
+      "has_hedging": false,
+      "is_gap": false
+    },
+    {
+      "text": "**Missing Information**: The excerpts do not specify whether there are any exceptions to the Buyer's indemnification cap, or whether the fraud exception that applies to the Seller's cap also applies to the Buyer's obligations.",
+      "citations": [],
+      "confidence": {
+        "level": "high",
+        "score": 1.0,
+        "corroboration_count": 0,
+        "flags": [
+          "gap_acknowledgment"
+        ]
+      },
+      "has_hedging": false,
+      "is_gap": true
+    }
+  ],
+  "overall_confidence": {
+    "level": "low",
+    "score": 0.049,
+    "corroboration_count": 1,
+    "flags": [
+      "no_citations",
+      "hallucinated_reference",
+      "single_source",
+      "contains_hallucinated_citations",
+      "all_claims_single_source"
+    ]
+  },
+  "retrieval_summary": {
+    "total_chunks_searched": 0,
+    "chunks_retrieved": 20,
+    "cross_ref_chunks_added": 0,
+    "semantic_hits": 20,
+    "bm25_hits": 20,
+    "query_expansions": [],
+    "avg_retrieval_score": 0.028
+  },
+  "gaps": [
+    "The answer does not address whether the fraud/willful misconduct exception that applies to the Seller's indemnification cap also applies to the Buyer's indemnification cap.",
+    "The answer does not specify whether there are any other exceptions to either party's indemnification caps beyond fraud and willful misconduct.",
+    "The answer does not address whether the $250,000 basket threshold applies to both Seller and Buyer indemnification obligations or only to the Seller."
+  ],
+  "related_unresolved": [],
+  "doc_id": "sample_contract",
+  "model": "claude-sonnet-4-20250514",
+  "elapsed_seconds": 14.31
+}

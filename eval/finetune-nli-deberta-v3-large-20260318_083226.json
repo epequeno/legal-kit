@@ -1,0 +1,24 @@
+{
+  "base_model": "cross-encoder/nli-deberta-v3-large",
+  "is_nli_checkpoint": true,
+  "epochs": 5,
+  "batch_size": 16,
+  "learning_rate": 1e-05,
+  "train_samples": 2802,
+  "val_samples": 350,
+  "test_samples": 350,
+  "training_time_seconds": 1292.8409197330475,
+  "timestamp": "2026-03-18T13:31:42.280103",
+  "test_metrics": {
+    "loss": 0.8345041275024414,
+    "accuracy": 0.7914285714285715,
+    "entailed_f1": 0.7432432432432433,
+    "partially_entailed_f1": 0.6625,
+    "contradicted_f1": 0.87,
+    "neutral_f1": 0.8541666666666666,
+    "macro_f1": 0.7824774774774774,
+    "runtime": 10.4293,
+    "samples_per_second": 33.559,
+    "steps_per_second": 4.219
+  }
+}

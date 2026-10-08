@@ -1,0 +1,16 @@
+{
+  "name": "legalkit",
+  "version": "0.1.0",
+  "scripts": {
+    "elm": "elm make src/Main.elm --output=dist/elm.js",
+    "elm:debug": "elm make src/Main.elm --output=dist/elm.js --debug",
+    "elm:watch": "elm-watch hot",
+    "dev": "npm run elm:debug && cargo tauri dev",
+    "build": "npm run elm && cargo tauri build",
+    "build:no-bundle": "npm run elm && cargo tauri build --no-bundle",
+    "check": "elm make src/Main.elm --output=/dev/null"
+  },
+  "devDependencies": {
+    "elm": "^0.19.1-6"
+  }
+}

@@ -1,0 +1,348 @@
+{
+  "config": {
+    "top_k": 20,
+    "run_baseline": false,
+    "num_queries": 12
+  },
+  "total_elapsed": 190.38,
+  "summary": {
+    "num_queries": 12,
+    "rag": {
+      "correctness_rate": 0.833,
+      "strict_correctness_rate": 0.667,
+      "avg_verification_rate": 0.796,
+      "avg_strict_verification_rate": 0.176,
+      "hallucination_rate": 0.148
+    },
+    "baseline": {
+      "correctness_rate": 0.0,
+      "strict_correctness_rate": 0.0
+    }
+  },
+  "results": [
+    {
+      "query": "Consider \"Fiverr\"'s privacy policy; who can see which tasks i hire workers for?",
+      "dataset": "privacy_qa",
+      "ground_truth_text": "  In addition, we collect information while you access, browse, view or otherwise use the Site.\nIn other words, when you access the Site we are aware of your usage of the Site, and may gather, collect and record the information relating to such usage, including geo-location information, IP address, device and connection information, browser information and web-log information, and all communications recorded by Users through the Site.\n",
+      "rag": {
+        "answer": "Based on the provided Fiverr privacy policy excerpts, the document does not specifically address who can see which tasks you hire workers for. \n\nThe excerpts indicate that [Fiverr-para] \"once you register, your username and additional information regarding your activity is made public and is visible to all Users of the Site. This information includes photos you upload, your published portfolio, Gig information, ratings, and additional information you may choose to add to your profile.\"\n\nHowever, the excerpts do not explicitly state whether the specific tasks you hire workers for (your purchases or hiring activity) are visible to other users or remain private. The policy mentions that [Fiverr-para] \"information that you choose to publish on the Site (photos, videos, text, music, reviews, deliveries) - is no longer private,\" but it's unclear from these excerpts whether hiring/purchasing activity falls into the category of information that becomes public.\n\nThe excerpts are missing specific information about the visibility of buyer activity, task hiring records, or purchase history to other users on the platform.",
+        "claims": 6,
+        "citations_total": 2,
+        "citations_verified": 0,
+        "citations_partial": 1,
+        "citations_unverified": 1,
+        "verification_rate": 0.5,
+        "gaps_found": 1,
+        "elapsed": 13.86389422416687,
+        "judgment": {
+          "correctness": "incorrect",
+          "score": 0.2,
+          "explanation": "The answer discusses user profiles, public information, and hiring visibility which are not mentioned in the ground truth passage that only covers data collection during site usage.",
+          "covers_ground_truth": false,
+          "adds_unsupported_claims": true
+        }
+      },
+      "baseline": {
+        "answer": "",
+        "elapsed": 0.0
+      }
+    },
+    {
+      "query": "Consider \"Fiverr\"'s privacy policy; who can see the jobs that i post?",
+      "dataset": "privacy_qa",
+      "ground_truth_text": "In other words, when you access the Site we are aware of your usage of the Site, and may gather, collect and record the information relating to such usage, including geo-location information, IP address, device and connection information, browser information and web-log information, and all communications recorded by Users through the Site.\n",
+      "rag": {
+        "answer": "Based on the provided Fiverr privacy policy excerpts, here is who can see the jobs that you post:\n\n**All Users of the Site can see your job postings.** [Fiverr-para] states: \"Once you register, your username and additional information regarding your activity is made public and is visible to all Users of the Site. This information includes photos you upload, your published portfolio, Gig information, ratings, and additional information you may choose to add to your profile.\"\n\nThe policy also clarifies that **information you choose to publish becomes public**: \"Information that you choose to publish on the Site (photos, videos, text, music, reviews, deliveries) - is no longer private, just like any information you publish online.\" [Fiverr-para]\n\n**Important limitation**: The excerpts provided do not contain specific information about job postings by buyers looking to hire sellers. The excerpts primarily discuss \"Gig information\" which appears to refer to services offered by sellers, and general information that users publish on the site. The excerpts do not clearly distinguish between different types of job postings or specify visibility settings for buyer job requests versus seller service offerings.\n\nTo fully answer your question about job posting visibility, additional information from Fiverr's privacy policy or terms of service would be needed that specifically addresses buyer job postings and their visibility settings.",
+        "claims": 8,
+        "citations_total": 2,
+        "citations_verified": 0,
+        "citations_partial": 0,
+        "citations_unverified": 2,
+        "verification_rate": 0.0,
+        "gaps_found": 1,
+        "elapsed": 14.815662860870361,
+        "judgment": {
+          "correctness": "incorrect",
+          "score": 0.0,
+          "explanation": "The generated answer discusses job posting visibility and user information publicity, but the ground truth passage only covers data collection practices like IP addresses and usage information, making the answer completely unsupported by the provided source material.",
+          "covers_ground_truth": false,
+          "adds_unsupported_claims": true
+        }
+      },
+      "baseline": {
+        "answer": "",
+        "elapsed": 0.0
+      }
+    },
+    {
+      "query": "Consider \"Fiverr\"'s privacy policy; what type of identifiable information is passed between users on the platform",
+      "dataset": "privacy_qa",
+      "ground_truth_text": "  We collect information that you provide us or voluntarily share with other users, and also some general technical information that is automatically gathered by our systems, such as IP address, browser information and cookies to enable you to have a better user experience and a more personalized browsing experience.\n\n\n  Once you register, your username and additional information regarding your activity is made public and is visible to all Users of the Site.\nThis information includes photos you ",
+      "rag": {
+        "answer": "Based on the provided Fiverr privacy policy excerpts, the following types of identifiable information are passed between users on the platform:\n\n**Information Made Public and Visible to All Users:**\n[Fiverr-para] \"Once you register, your username and additional information regarding your activity is made public and is visible to all Users of the Site. This information includes photos you upload, your published portfolio, Gig information, ratings, and additional information you may choose to add to your profile.\"\n\n**Information Users Choose to Publish:**\n[Fiverr-para] \"Information that you choose to publish on the Site (photos, videos, text, music, reviews, deliveries) - is no longer private, just like any information you publish online.\"\n\n**User-Generated Content:**\n[Fiverr-para] The policy references that users can share \"information about sellers and their Gigs, User's location, sharing of portfolio, ratings and feedbacks by buyers and anything you choose to add to your user profile.\"\n\n**Contact Limitations:**\nHowever, the policy specifies that [Fiverr-para] \"we will not let any other person, including sellers and buyers, contact you, other than through your user profile on the Site.\"\n\nThe excerpts indicate that while users' usernames, profiles, portfolios, ratings, reviews, and any content they choose to publish becomes visible to other platform users, direct contact information (like email addresses collected during registration) is not shared between users. Users can only contact each other through the platform's user profile system rather than having access to personal contact details.",
+        "claims": 8,
+        "citations_total": 4,
+        "citations_verified": 2,
+        "citations_partial": 2,
+        "citations_unverified": 0,
+        "verification_rate": 1.0,
+        "gaps_found": 0,
+        "elapsed": 17.80952501296997,
+        "judgment": {
+          "correctness": "partially_correct",
+          "score": 0.6,
+          "explanation": "The answer correctly represents the ground truth information about public usernames, profiles, portfolios, and ratings, but includes additional claims about contact limitations and user-generated content that are not supported by the provided ground truth passage.",
+          "covers_ground_truth": true,
+          "adds_unsupported_claims": true
+        }
+      },
+      "baseline": {
+        "answer": "",
+        "elapsed": 0.0
+      }
+    },
+    {
+      "query": "Consider the Non-Disclosure Agreement between CopAcc and ToP Mentors; Does the document indicate that the Agreement does not grant the Receiving Party any rights to the Confidential Information?",
+      "dataset": "contractnli",
+      "ground_truth_text": "Any and all proprietary rights, including but not limited to rights to and in inventions, patent rights, utility models, copyrights, trademarks and trade secrets, in and to any Confidential Information shall be and remain with the Participants respectively, and Mentor shall not have any right, license, title or interest in or to any Confidential Information, except the limited right to review, assess and help develop such Confidential Information in connection with the Copernicus Accelerator 201",
+      "rag": {
+        "answer": "Yes, the document explicitly indicates that the Agreement does not grant the Receiving Party (Mentor) any rights to the Confidential Information.\n\nSection 8 of the Non-Disclosure Agreement, titled \"Proprietary Rights, Limited Right to Use,\" clearly states: \"Any and all proprietary rights, including but not limited to rights to and in inventions, patent rights, utility models, copyrights, trademarks and trade secrets, in and to any Confidential Information shall be and remain with the Participants respectively, and Mentor shall not have any right, license, title or interest in or to any Confidential Information, except the limited right to review, assess and help develop such Confidential Information in connection with the Copernicus Accelerator 2017.\" [CopAcc_NDA-and-ToP-Mentors_2.0_2017-para]\n\nThe document makes it clear that the Mentor (Receiving Party) has no ownership rights, licenses, title, or interest in the Confidential Information, with only a very limited exception for the specific purpose of reviewing, assessing, and helping develop the information as part of the Copernicus Accelerator program.",
+        "claims": 3,
+        "citations_total": 0,
+        "citations_verified": 0,
+        "citations_partial": 0,
+        "citations_unverified": 0,
+        "verification_rate": 0.0,
+        "gaps_found": 0,
+        "elapsed": 5.927039861679077,
+        "judgment": {
+          "correctness": "correct",
+          "score": 1.0,
+          "explanation": "The answer accurately represents the ground truth passage, correctly identifying that the Mentor has no rights to Confidential Information except for the limited exception specified, without adding any unsupported claims.",
+          "covers_ground_truth": true,
+          "adds_unsupported_claims": false
+        }
+      },
+      "baseline": {
+        "answer": "",
+        "elapsed": 0.0
+      }
+    },
+    {
+      "query": "Consider the Non-Disclosure Agreement between CopAcc and ToP Mentors; Does the document state that Confidential Information shall only include technical information?",
+      "dataset": "contractnli",
+      "ground_truth_text": "\u201cConfidential Information\u201d means any Idea disclosed to Mentor, all data and information, know-how, business concepts, software, procedures, products, services, development projects, and programmes contained in such Idea and/or its description and any conclusions. ",
+      "rag": {
+        "answer": "No, the document does not state that Confidential Information shall only include technical information. \n\nAccording to the definition provided in the agreement, \"Confidential Information\" is defined much more broadly than just technical information [CopAcc_NDA-and-ToP-Mentors_2.0_2017-para]. The definition states that \"Confidential Information\" means any Idea disclosed to Mentor, all data and information, know-how, business concepts, software, procedures, products, services, development projects, and programmes contained in such Idea and/or its description and any conclusions\" [CopAcc_NDA-and-ToP-Mentors_2.0_2017-para].\n\nThis definition encompasses a wide range of information types including business concepts, procedures, products, services, and development projects, which extends well beyond purely technical information [CopAcc_NDA-and-ToP-Mentors_2.0_2017-para].",
+        "claims": 4,
+        "citations_total": 0,
+        "citations_verified": 0,
+        "citations_partial": 0,
+        "citations_unverified": 0,
+        "verification_rate": 0.0,
+        "gaps_found": 0,
+        "elapsed": 7.23445200920105,
+        "judgment": {
+          "correctness": "correct",
+          "score": 1.0,
+          "explanation": "The answer correctly interprets that the definition of \"Confidential Information\" is broad and includes much more than just technical information, accurately reflecting the comprehensive scope outlined in the ground truth passage.",
+          "covers_ground_truth": true,
+          "adds_unsupported_claims": false
+        }
+      },
+      "baseline": {
+        "answer": "",
+        "elapsed": 0.0
+      }
+    },
+    {
+      "query": "Consider the Non-Disclosure Agreement between CopAcc and ToP Mentors; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+      "dataset": "contractnli",
+      "ground_truth_text": "Notwithstanding the termination of this Agreement, any Confidential Information must be kept confidential for as long as such Confidential Information is not publicly known unless it becomes part of the public domain through no wrongful act of Mentor. ",
+      "rag": {
+        "answer": "Yes, the document explicitly mentions that some obligations of the Agreement may survive termination. \n\nAccording to Section 9 (Term), \"Notwithstanding the termination of this Agreement, any Confidential Information must be kept confidential for as long as such Confidential Information is not publicly known unless it becomes part of the public domain through no wrongful act of Mentor.\" [CopAcc_NDA-and-ToP-Mentors_2.0_2017-para]\n\nThis provision specifically states that the confidentiality obligations regarding Confidential Information will continue even after the Agreement is terminated, lasting until such information becomes publicly known through lawful means.",
+        "claims": 3,
+        "citations_total": 0,
+        "citations_verified": 0,
+        "citations_partial": 0,
+        "citations_unverified": 0,
+        "verification_rate": 0.0,
+        "gaps_found": 0,
+        "elapsed": 4.815814971923828,
+        "judgment": {
+          "correctness": "correct",
+          "score": 1.0,
+          "explanation": "The answer correctly identifies that confidentiality obligations survive termination and accurately quotes the relevant provision, though it adds a section reference not in the ground truth, this doesn't constitute unsupported claims about the legal content.",
+          "covers_ground_truth": true,
+          "adds_unsupported_claims": false
+        }
+      },
+      "baseline": {
+        "answer": "",
+        "elapsed": 0.0
+      }
+    },
+    {
+      "query": "Consider the Acquisition Agreement between Parent \"Magic AcquireCo, Inc.\" and Target \"The Michaels Companies, Inc.\"; What is the Type of Consideration",
+      "dataset": "maud",
+      "ground_truth_text": "WHEREAS, pursuant to this Agreement, Merger Subsidiary has agreed to commence, and Parent has agreed to cause Merger Subsidiary to commence, a tender offer (as it may be extended and amended from time to time pursuant to this Agreement, the \u201cOffer\u201d) to purchase any (subject to the Minimum Tender Condition) and all of the shares of common stock, $0.067751 par value per share, of the Company (\u201cCompany Common Stock\u201d), issued and outstanding, at a price per share of $22.00 (the \u201cOffer Price\u201d), net t",
+      "rag": {
+        "answer": "Based on the provided document excerpts, the type of consideration in the Acquisition Agreement between Parent \"Magic AcquireCo, Inc.\" and Target \"The Michaels Companies, Inc.\" is **cash consideration**.\n\nSpecifically:\n\n1. **Offer Price**: The tender offer is for \"$22.00 (the 'Offer Price'), net to the holder of such share, in cash, without interest\" [\u00a711.09].\n\n2. **Merger Consideration**: Each share not tendered in the offer \"shall be canceled and converted into the right to receive the Offer Price in cash, without interest (the 'Merger Consideration')\" [\u00a71.01].\n\n3. **Treatment of Equity Awards**: All company equity awards (stock options, restricted shares, RSUs, PSUs, MSUs, and LTI awards) are converted into cash payments based on the $22.00 per share price [\u00a71.01].\n\nThe agreement consistently refers to cash payments throughout, with the Offer Price of $22.00 per share in cash serving as both the tender offer consideration and the merger consideration for any remaining shares. There is no mention of stock consideration, mixed consideration, or any other form of consideration besides cash.",
+        "claims": 7,
+        "citations_total": 3,
+        "citations_verified": 1,
+        "citations_partial": 2,
+        "citations_unverified": 0,
+        "verification_rate": 1.0,
+        "gaps_found": 0,
+        "elapsed": 13.829154014587402,
+        "judgment": {
+          "correctness": "correct",
+          "score": 1.0,
+          "explanation": "The answer correctly identifies cash consideration and accurately quotes the $22.00 offer price and merger consideration terms from the ground truth, but adds unsupported details about equity awards treatment and section references not present in the provided passage.",
+          "covers_ground_truth": true,
+          "adds_unsupported_claims": true
+        }
+      },
+      "baseline": {
+        "answer": "",
+        "elapsed": 0.0
+      }
+    },
+    {
+      "query": "Consider the Acquisition Agreement between Parent \"Magic AcquireCo, Inc.\" and Target \"The Michaels Companies, Inc.\"; Information about the Closing Condition: Compliance with Covenants",
+      "dataset": "maud",
+      "ground_truth_text": "Conditions of the Offer   Notwithstanding any other term of the Offer or this Agreement and in addition to (and not in limitation of) Merger Subsidiary\u2019s right to extend and amend the Offer pursuant to the provisions of the Agreement, Parent shall not be required to accept for payment or, subject to any applicable rules and regulations of the SEC, including Rule 14e-l(c) under the 1934 Act (relating to Parent\u2019s obligation to pay for or return tendered Shares promptly after the termination or wit",
+      "rag": {
+        "answer": "Based on the provided document excerpts, I can identify the following information about the Closing Condition regarding Compliance with Covenants in the Acquisition Agreement between Magic AcquireCo, Inc. (Parent) and The Michaels Companies, Inc. (Target):\n\n## Closing Condition: Compliance with Covenants\n\nThe Agreement establishes a specific closing condition related to covenant compliance. According to the conditions of the Offer, \"the Company shall have performed or complied with, in all material respects, each covenant, agreement and obligation required by the Merger Agreement to be performed or complied with by it on or prior to the Offer Expiration Time\" [Exhibit-A].\n\nAdditionally, the Company must \"have delivered to Parent a certificate, dated as of the date on which the Offer expires, signed by an executive officer of the Company, certifying that the conditions specified in clauses (d), (e) and (f) have been satisfied\" [Exhibit-A]. This certification requirement includes confirming compliance with the covenant performance condition.\n\n## Key Covenants Subject to This Condition\n\nThe excerpts reveal several specific covenants that the Company must comply with, including:\n\n1. **Conduct of Business**: The Company must \"conduct its business in the ordinary course\" and \"use its reasonable best efforts to (x) preserve intact its present business organization, (y) keep available the services of its directors, officers and key employees and (z) maintain existing relationships with its material suppliers\" [\u00a74.13].\n\n2. **Financing Cooperation**: The Company must \"use its reasonable best efforts, at Parent's sole cost and expense, to provide, and to cause its Subsidiaries and their respective Representatives to provide, to Parent such cooperation that is reasonably requested by Parent and is customary in connection with the arrangement of debt financings\" [\u00a78.04].\n\n3. **Notice Requirements**: \"Each of the Company and Parent shall promptly notify the other of\" various events including communications from governmental authorities and legal proceedings [\u00a78.04].\n\n## Waiver Provisions\n\nThe covenant compliance condition \"may be waived by Parent or Merger Subsidiary in whole or in part at any time and from time to time and in the sole discretion of Parent or Merger Subsidiary, subject in each case to the terms of the Merger Agreement and Applicable Law\" [Exhibit-A].\n\n**Note**: The excerpts do not provide complete details about all specific covenants that fall under this compliance condition, as the full covenant sections of the agreement are not included in the provided excerpts.",
+        "claims": 11,
+        "citations_total": 6,
+        "citations_verified": 3,
+        "citations_partial": 3,
+        "citations_unverified": 0,
+        "verification_rate": 1.0,
+        "gaps_found": 1,
+        "elapsed": 27.674402236938477,
+        "judgment": {
+          "correctness": "partially_correct",
+          "score": 0.6,
+          "explanation": "The answer correctly identifies the core covenant compliance condition from the ground truth passage but adds extensive details about specific covenants, certification requirements, and waiver provisions that are not present in the provided ground truth passage.",
+          "covers_ground_truth": true,
+          "adds_unsupported_claims": true
+        }
+      },
+      "baseline": {
+        "answer": "",
+        "elapsed": 0.0
+      }
+    },
+    {
+      "query": "Consider the Acquisition Agreement between Parent \"Magic AcquireCo, Inc.\" and Target \"The Michaels Companies, Inc.\"; What is the Target's Representation & Warranty of No Material Adverse Effect, with regards to some specified date",
+      "dataset": "maud",
+      "ground_truth_text": "Section 4.10.     Absence of Certain Changes.   \n\n(b)               From the Company Balance Sheet Date until the date hereof, there has not been any event, occurrence, development of a state of circumstances or facts that has had or would reasonably be expected to have, individually or in the aggregate, a Material Adverse Effect.   ",
+      "rag": {
+        "answer": "Based on the provided document excerpts, I cannot find a specific representation and warranty titled \"No Material Adverse Effect\" in the Target's (The Michaels Companies, Inc.) representations and warranties section.\n\nHowever, the excerpts do contain a related representation regarding the absence of certain changes. In Section 4.10(b), the Target represents that \"From the Company Balance Sheet Date until the date hereof, there has not been any event, occurrence, development of a state of circumstances or facts that has had or would reasonably be expected to have, individually or in the aggregate, a Material Adverse Effect\" [\u00a74.13].\n\nThe \"Company Balance Sheet Date\" is defined as \"October 31, 2020\" [\u00a74.13], which appears to be the specified date referenced in this representation.\n\nThe definition of \"Material Adverse Effect\" is provided in the excerpts and includes extensive carve-outs for various types of events and circumstances [\u00a71.01].\n\nAdditionally, one of the conditions for the Offer includes that \"since the date of the Merger Agreement, no Material Adverse Effect shall have occurred and be continuing\" [Exhibit-A].\n\nHowever, the excerpts do not contain a complete view of all the Target's representations and warranties, as indicated by the table of contents which shows Article 4 contains multiple sections [The Michaels Companies, Inc._Apollo Global Management, LLC-preamble]. Without access to the complete Article 4, I cannot definitively state whether there is a specific \"No Material Adverse Effect\" representation and warranty beyond what is described in Section 4.10(b).",
+        "claims": 8,
+        "citations_total": 4,
+        "citations_verified": 1,
+        "citations_partial": 3,
+        "citations_unverified": 0,
+        "verification_rate": 1.0,
+        "gaps_found": 1,
+        "elapsed": 17.545329093933105,
+        "judgment": {
+          "correctness": "correct",
+          "score": 1.0,
+          "explanation": "The answer accurately quotes and represents the ground truth passage from Section 4.10(b), correctly identifying it as the Target's representation regarding Material Adverse Effect from the Company Balance Sheet Date to the agreement date, while appropriately noting limitations in the available excerpts.",
+          "covers_ground_truth": true,
+          "adds_unsupported_claims": false
+        }
+      },
+      "baseline": {
+        "answer": "",
+        "elapsed": 0.0
+      }
+    },
+    {
+      "query": "Consider the Marketing Affiliate Agreement between Birch First Global Investments Inc. and Mount Knowledge Holdings Inc.; What is the expiration date of this contract?",
+      "dataset": "cuad",
+      "ground_truth_text": "This agreement shall begin upon the date of its execution by MA and acceptance in writing by Company and shall remain in effect until the end of the current calendar year and shall be automatically renewed for successive one (1) year periods unless otherwise terminated according to the cancellation or termination provisions contained in paragraph 18 of this Agreement.",
+      "rag": {
+        "answer": "Based on the provided document excerpts, I cannot find a specific expiration date for the Marketing Affiliate Agreement between Birch First Global Investments Inc. and Mount Knowledge Holdings Inc.\n\nThe agreement contains provisions regarding its term, but not a fixed expiration date. According to [recital-2], \"This agreement shall begin upon the date of its execution by MA and acceptance in writing by Company and shall remain in effect until the end of the current calendar year and shall be automatically renewed for successive one (1) year periods unless otherwise terminated according to the cancellation or termination provisions contained in paragraph 18 of this Agreement.\"\n\nThe agreement was dated May 8, 2014 [Exhibit-10], so it would remain in effect until the end of 2014 and then automatically renew for successive one-year periods unless terminated. However, the excerpts do not contain the specific expiration date, as this would depend on whether either party provided the required thirty (30) days written notice for termination as specified in [recital-2]: \"This Agreement may be terminated by either party at the expiration of its term or any renewal term upon thirty (30) days written notice to the other party.\"\n\nThe document excerpts do not provide sufficient information to determine the actual expiration date of this contract.",
+        "claims": 6,
+        "citations_total": 2,
+        "citations_verified": 0,
+        "citations_partial": 2,
+        "citations_unverified": 0,
+        "verification_rate": 1.0,
+        "gaps_found": 2,
+        "elapsed": 12.455406188964844,
+        "judgment": {
+          "correctness": "correct",
+          "score": 1.0,
+          "explanation": "The answer correctly identifies that there is no fixed expiration date and accurately explains the automatic renewal structure described in the ground truth passage.",
+          "covers_ground_truth": true,
+          "adds_unsupported_claims": false
+        }
+      },
+      "baseline": {
+        "answer": "",
+        "elapsed": 0.0
+      }
+    },
+    {
+      "query": "Consider the Marketing Affiliate Agreement between Birch First Global Investments Inc. and Mount Knowledge Holdings Inc.; What is the renewal term for this contract?",
+      "dataset": "cuad",
+      "ground_truth_text": "This agreement shall begin upon the date of its execution by MA and acceptance in writing by Company and shall remain in effect until the end of the current calendar year and shall be automatically renewed for successive one (1) year periods unless otherwise terminated according to the cancellation or termination provisions contained in paragraph 18 of this Agreement.",
+      "rag": {
+        "answer": "Based on the provided document excerpts, the renewal term for the Marketing Affiliate Agreement between Birch First Global Investments Inc. and Mount Knowledge Holdings Inc. is one (1) year.\n\nAccording to the agreement, \"This agreement shall begin upon the date of its execution by MA and acceptance in writing by Company and shall remain in effect until the end of the current calendar year and shall be automatically renewed for successive one (1) year periods unless otherwise terminated according to the cancellation or termination provisions contained in paragraph 18 of this Agreement.\" [recital-2]\n\nThe agreement provides for automatic renewal for successive one-year periods unless terminated according to the specified termination provisions.",
+        "claims": 3,
+        "citations_total": 1,
+        "citations_verified": 0,
+        "citations_partial": 1,
+        "citations_unverified": 0,
+        "verification_rate": 1.0,
+        "gaps_found": 0,
+        "elapsed": 8.048796892166138,
+        "judgment": {
+          "correctness": "correct",
+          "score": 1.0,
+          "explanation": "The answer accurately extracts and represents the renewal term information from the ground truth passage, correctly identifying the one-year successive renewal periods and the automatic renewal mechanism.",
+          "covers_ground_truth": true,
+          "adds_unsupported_claims": false
+        }
+      },
+      "baseline": {
+        "answer": "",
+        "elapsed": 0.0
+      }
+    },
+    {
+      "query": "Consider the Marketing Affiliate Agreement between Birch First Global Investments Inc. and Mount Knowledge Holdings Inc.; What is the notice period required to terminate the renewal?",
+      "dataset": "cuad",
+      "ground_truth_text": "This Agreement may be terminated by either party at the expiration of its term or any renewal term upon thirty (30) days written notice to the other party.",
+      "rag": {
+        "answer": "Based on the provided document excerpts, the notice period required to terminate the renewal is **thirty (30) days written notice** [recital-2].\n\nSpecifically, the agreement states: \"This Agreement may be terminated by either party at the expiration of its term or any renewal term upon thirty (30) days written notice to the other party\" [recital-2].\n\nThe agreement has an initial term until the end of the current calendar year and \"shall be automatically renewed for successive one (1) year periods unless otherwise terminated according to the cancellation or termination provisions contained in paragraph 18 of this Agreement\" [recital-2].",
+        "claims": 3,
+        "citations_total": 3,
+        "citations_verified": 0,
+        "citations_partial": 2,
+        "citations_unverified": 1,
+        "verification_rate": 0.667,
+        "gaps_found": 0,
+        "elapsed": 12.433809995651245,
+        "judgment": {
+          "correctness": "correct",
+          "score": 1.0,
+          "explanation": "The answer correctly identifies the 30-day written notice requirement from the ground truth passage and provides accurate additional context about the renewal terms without contradicting the source material.",
+          "covers_ground_truth": true,
+          "adds_unsupported_claims": false
+        }
+      },
+      "baseline": {
+        "answer": "",
+        "elapsed": 0.0
+      }
+    }
+  ]
+}

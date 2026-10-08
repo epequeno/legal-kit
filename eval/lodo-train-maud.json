@@ -1,0 +1,8 @@
+{
+  "held_out": "maud",
+  "status": "success",
+  "train_samples": 7199,
+  "val_samples": 799,
+  "model_dir": "/Users/steven/code/legal-kit/models/legal-embeddings-lodo-maud",
+  "timestamp": "2026-03-19T13:30:56.861339"
+}

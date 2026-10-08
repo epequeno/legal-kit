@@ -1,0 +1,209 @@
+ASSET PURCHASE AGREEMENT
+
+This Asset Purchase Agreement (this "Agreement") is entered into as of January 15, 2024, by and between:
+
+ACME Corporation, a Delaware corporation ("Seller"), and
+
+TechVentures Inc., a California corporation ("Buyer").
+
+WHEREAS, Seller desires to sell, and Buyer desires to purchase, substantially all of the assets used in connection with Seller's enterprise software business (the "Business"); and
+
+WHEREAS, the Board of Directors of each of Seller and Buyer has approved this Agreement and the transactions contemplated hereby.
+
+NOW, THEREFORE, in consideration of the mutual covenants and agreements hereinafter set forth and for other good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged, the parties agree as follows:
+
+ARTICLE I - DEFINITIONS
+
+Section 1.1 Definitions. As used in this Agreement, the following terms shall have the meanings set forth below:
+
+"Affiliate" means, with respect to any Person, any other Person that directly or indirectly, through one or more intermediaries, controls, is controlled by, or is under common control with, such Person.
+
+"Business Day" means any day other than a Saturday, Sunday, or other day on which commercial banks in New York, New York are authorized or required by law to close.
+
+"Closing" has the meaning set forth in Section 3.1.
+
+"Closing Date" has the meaning set forth in Section 3.1.
+
+"Encumbrance" means any lien, pledge, hypothecation, charge, mortgage, security interest, encumbrance, equity, trust, equitable interest, claim, preference, right of possession, lease, tenancy, license, encroachment, covenant, infringement, interference, order, proxy, option, right of first refusal, preemptive right, community property interest, legend, defect, impediment, exception, reservation, limitation, impairment, imperfection of title, condition, or restriction of any nature.
+
+"Intellectual Property" means all intellectual property rights, including all rights in and to: (a) patents and patent applications; (b) trademarks, service marks, trade names, and trade dress; (c) copyrights and copyrightable works; (d) trade secrets and confidential information; and (e) domain names and social media accounts.
+
+"Knowledge of Seller" or "Seller's Knowledge" means the actual knowledge, after reasonable inquiry, of the individuals listed on Schedule 1.1(a).
+
+"Material Adverse Effect" means any change, event, occurrence, or circumstance that, individually or in the aggregate, has had or would reasonably be expected to have a material adverse effect on (a) the business, results of operations, financial condition, or assets of the Business, or (b) the ability of Seller to consummate the transactions contemplated by this Agreement; provided, however, that none of the following shall be deemed to constitute, and none of the following shall be taken into account in determining whether there has been, a Material Adverse Effect: (i) changes in general economic conditions; (ii) changes in the industry in which the Business operates; (iii) changes in applicable law or accounting standards; or (iv) the announcement of this Agreement.
+
+"Person" means any individual, corporation, partnership, limited liability company, trust, association, or other entity or organization.
+
+"Purchase Price" has the meaning set forth in Section 2.3.
+
+"Purchased Assets" has the meaning set forth in Section 2.1.
+
+ARTICLE II - PURCHASE AND SALE
+
+Section 2.1 Purchase and Sale of Assets. Upon the terms and subject to the conditions of this Agreement, at the Closing, Seller shall sell, convey, transfer, assign, and deliver to Buyer, and Buyer shall purchase, acquire, and accept from Seller, all of Seller's right, title, and interest in and to the following assets (collectively, the "Purchased Assets"):
+
+(a) all tangible personal property used in the Business, including furniture, fixtures, equipment, and supplies;
+
+(b) all Intellectual Property owned by Seller and used in the Business;
+
+(c) all contracts and agreements to which Seller is a party and that relate to the Business, as listed on Schedule 2.1(c) (the "Assumed Contracts");
+
+(d) all accounts receivable arising from the Business;
+
+(e) all books, records, files, and documents relating to the Business; and
+
+(f) all goodwill associated with the Business.
+
+Section 2.2 Excluded Assets. Notwithstanding anything in Section 2.1 to the contrary, the Purchased Assets shall not include the following (the "Excluded Assets"):
+
+(a) all cash and cash equivalents;
+
+(b) all rights under this Agreement;
+
+(c) Seller's corporate charter, qualifications to do business, taxpayer and other identification numbers, seals, minute books, stock transfer books, and other documents relating to the organization, maintenance, and existence of Seller as a corporation; and
+
+(d) all assets listed on Schedule 2.2.
+
+Section 2.3 Purchase Price. The aggregate purchase price for the Purchased Assets shall be Fifty Million Dollars ($50,000,000) (the "Purchase Price"), subject to adjustment as set forth in Section 2.4.
+
+Section 2.4 Purchase Price Adjustment.
+
+(a) Within sixty (60) days after the Closing Date, Buyer shall prepare and deliver to Seller a statement (the "Closing Statement") setting forth Buyer's calculation of the Net Working Capital as of the Closing Date.
+
+(b) If the Net Working Capital as of the Closing Date exceeds the Target Net Working Capital by more than $100,000, Seller shall be entitled to receive from Buyer an amount equal to such excess. If the Net Working Capital as of the Closing Date is less than the Target Net Working Capital by more than $100,000, Buyer shall be entitled to receive from Seller an amount equal to such shortfall.
+
+ARTICLE III - CLOSING
+
+Section 3.1 Closing. The closing of the transactions contemplated by this Agreement (the "Closing") shall take place at the offices of Seller's counsel at 10:00 a.m. local time on the date that is three (3) Business Days after the satisfaction or waiver of the conditions set forth in Article VII, or at such other time, date, and place as the parties may mutually agree upon in writing (the "Closing Date").
+
+Section 3.2 Deliveries at Closing. At the Closing:
+
+(a) Seller shall deliver to Buyer: (i) a bill of sale in the form attached as Exhibit A; (ii) assignment agreements for all Assumed Contracts; (iii) such other documents as Buyer may reasonably request to evidence the transfer of the Purchased Assets.
+
+(b) Buyer shall deliver to Seller: (i) the Purchase Price by wire transfer of immediately available funds to an account designated by Seller; (ii) an assumption agreement for the Assumed Liabilities; (iii) such other documents as Seller may reasonably request.
+
+ARTICLE IV - REPRESENTATIONS AND WARRANTIES OF SELLER
+
+Seller hereby represents and warrants to Buyer as follows:
+
+Section 4.1 Organization and Authority. Seller is a corporation duly organized, validly existing, and in good standing under the laws of the State of Delaware. Seller has full corporate power and authority to execute and deliver this Agreement, to perform its obligations hereunder, and to consummate the transactions contemplated hereby.
+
+Section 4.2 No Conflicts. The execution, delivery, and performance by Seller of this Agreement do not and will not: (a) conflict with or violate the certificate of incorporation or bylaws of Seller; (b) conflict with or violate any law applicable to Seller; or (c) result in any breach of, or constitute a default under, any contract to which Seller is a party, except as would not have a Material Adverse Effect.
+
+Section 4.3 Title to Purchased Assets. Seller has good and valid title to all of the Purchased Assets, free and clear of all Encumbrances, except for Permitted Encumbrances as set forth on Schedule 4.3.
+
+Section 4.4 Intellectual Property.
+
+(a) Schedule 4.4(a) sets forth a complete and accurate list of all registered Intellectual Property owned by Seller and used in the Business.
+
+(b) Seller owns or has the right to use all Intellectual Property necessary for the operation of the Business as currently conducted. To Seller's Knowledge, the operation of the Business does not infringe upon the intellectual property rights of any third party.
+
+(c) Seller has taken commercially reasonable steps to protect the confidentiality of its trade secrets and other confidential Intellectual Property.
+
+Section 4.5 Litigation. Except as set forth on Schedule 4.5, there is no action, suit, proceeding, or investigation pending or, to Seller's Knowledge, threatened against Seller that relates to the Business or any of the Purchased Assets.
+
+ARTICLE V - REPRESENTATIONS AND WARRANTIES OF BUYER
+
+Buyer hereby represents and warrants to Seller as follows:
+
+Section 5.1 Organization and Authority. Buyer is a corporation duly organized, validly existing, and in good standing under the laws of the State of California. Buyer has full corporate power and authority to execute and deliver this Agreement, to perform its obligations hereunder, and to consummate the transactions contemplated hereby.
+
+Section 5.2 No Conflicts. The execution, delivery, and performance by Buyer of this Agreement do not and will not conflict with or violate the organizational documents of Buyer or any law applicable to Buyer.
+
+Section 5.3 Financing. Buyer has, or will have at the Closing, sufficient funds available to pay the Purchase Price and any other amounts payable by Buyer under this Agreement.
+
+ARTICLE VI - COVENANTS
+
+Section 6.1 Conduct of Business. From the date hereof until the Closing Date, Seller shall conduct the Business in the ordinary course consistent with past practice and shall use commercially reasonable efforts to preserve intact the Business and maintain the relationships of the Business with customers, suppliers, and employees.
+
+Section 6.2 Access to Information. From the date hereof until the Closing Date, Seller shall afford Buyer and its representatives reasonable access during normal business hours to the properties, books, contracts, records, and personnel of the Business.
+
+Section 6.3 Confidentiality. Each party agrees to keep confidential all non-public information received from the other party in connection with this Agreement, subject to the terms of the Confidentiality Agreement dated October 1, 2023, between Seller and Buyer.
+
+Section 6.4 Non-Competition. For a period of three (3) years following the Closing Date, Seller shall not, directly or indirectly, engage in any business that competes with the Business in any geographic area in which the Business operates as of the Closing Date.
+
+ARTICLE VII - CONDITIONS TO CLOSING
+
+Section 7.1 Conditions to Obligations of Buyer. The obligations of Buyer to consummate the transactions contemplated by this Agreement are subject to the satisfaction, at or prior to the Closing, of each of the following conditions:
+
+(a) the representations and warranties of Seller set forth in Article IV shall be true and correct in all material respects as of the Closing Date;
+
+(b) Seller shall have performed and complied with all covenants and agreements required to be performed by it under this Agreement at or prior to the Closing;
+
+(c) no Material Adverse Effect shall have occurred since the date of this Agreement; and
+
+(d) all required governmental approvals shall have been obtained.
+
+Section 7.2 Conditions to Obligations of Seller. The obligations of Seller to consummate the transactions contemplated by this Agreement are subject to the satisfaction, at or prior to the Closing, of each of the following conditions:
+
+(a) the representations and warranties of Buyer set forth in Article V shall be true and correct in all material respects as of the Closing Date; and
+
+(b) Buyer shall have performed and complied with all covenants and agreements required to be performed by it under this Agreement at or prior to the Closing.
+
+ARTICLE VIII - INDEMNIFICATION
+
+Section 8.1 Indemnification by Seller. Subject to the limitations set forth in this Article VIII, Seller shall indemnify, defend, and hold harmless Buyer and its Affiliates and their respective officers, directors, employees, agents, and representatives (collectively, the "Buyer Indemnified Parties") from and against any and all losses, damages, liabilities, costs, and expenses (including reasonable attorneys' fees) (collectively, "Losses") arising out of or resulting from:
+
+(a) any breach of any representation or warranty made by Seller in Article IV of this Agreement;
+
+(b) any breach of any covenant or agreement made by Seller in this Agreement; or
+
+(c) any Excluded Liability.
+
+Section 8.2 Indemnification by Buyer. Subject to the limitations set forth in this Article VIII, Buyer shall indemnify, defend, and hold harmless Seller and its Affiliates and their respective officers, directors, employees, agents, and representatives (collectively, the "Seller Indemnified Parties") from and against any and all Losses arising out of or resulting from:
+
+(a) any breach of any representation or warranty made by Buyer in Article V of this Agreement; or
+
+(b) any breach of any covenant or agreement made by Buyer in this Agreement.
+
+Section 8.3 Limitations on Indemnification.
+
+(a) Seller shall not be required to indemnify the Buyer Indemnified Parties until the aggregate amount of Losses exceeds Two Hundred Fifty Thousand Dollars ($250,000) (the "Basket"), at which point Seller shall be liable for all Losses in excess of the Basket.
+
+(b) The aggregate liability of Seller under Section 8.1 shall not exceed Five Million Dollars ($5,000,000) (the "Cap"); provided, however, that the Cap shall not apply to Losses arising from fraud or willful misconduct by Seller.
+
+(c) The aggregate liability of Buyer under Section 8.2 shall not exceed Five Million Dollars ($5,000,000).
+
+Section 8.4 Survival. The representations and warranties of the parties contained in this Agreement shall survive the Closing for a period of eighteen (18) months following the Closing Date; provided, however, that (a) the Fundamental Representations shall survive the Closing indefinitely, and (b) the representations and warranties set forth in Section 4.4 (Intellectual Property) shall survive for a period of thirty-six (36) months following the Closing Date.
+
+Section 8.5 Exclusive Remedy. Except in the case of fraud, the indemnification provisions of this Article VIII shall be the sole and exclusive remedy of the parties with respect to any breach of this Agreement.
+
+ARTICLE IX - TERMINATION
+
+Section 9.1 Termination. This Agreement may be terminated at any time prior to the Closing:
+
+(a) by mutual written consent of Seller and Buyer;
+
+(b) by either Seller or Buyer if the Closing has not occurred on or before June 30, 2024 (the "Outside Date"); provided, however, that the right to terminate under this Section 9.1(b) shall not be available to a party whose breach of this Agreement has caused or resulted in the failure of the Closing to occur by the Outside Date;
+
+(c) by either Seller or Buyer if any governmental authority has issued an order or taken any action permanently restraining, enjoining, or otherwise prohibiting the transactions contemplated by this Agreement; or
+
+(d) by Buyer if there has been a Material Adverse Effect with respect to the Business.
+
+Section 9.2 Effect of Termination. In the event of termination of this Agreement pursuant to Section 9.1, this Agreement shall become void and of no further force or effect, except that (a) this Section 9.2, Section 6.3 (Confidentiality), and Article X (Miscellaneous) shall survive termination, and (b) nothing herein shall relieve any party from liability for any willful breach of this Agreement.
+
+ARTICLE X - MISCELLANEOUS
+
+Section 10.1 Governing Law. This Agreement shall be governed by and construed in accordance with the laws of the State of Delaware, without giving effect to any principles of conflicts of law.
+
+Section 10.2 Notices. All notices required or permitted under this Agreement shall be in writing and shall be deemed given when delivered personally, sent by overnight courier, or sent by certified mail, return receipt requested, to the addresses set forth on the signature page hereto.
+
+Section 10.3 Entire Agreement. This Agreement, together with the Schedules, Exhibits, and other documents delivered pursuant hereto, constitutes the entire agreement between the parties with respect to the subject matter hereof and supersedes all prior negotiations, representations, warranties, commitments, offers, and agreements, whether written or oral.
+
+Section 10.4 Amendment. This Agreement may not be amended or modified except by an instrument in writing signed by both parties.
+
+Section 10.5 Assignment. Neither party may assign this Agreement or any of its rights or obligations hereunder without the prior written consent of the other party; provided, however, that Buyer may assign its rights under this Agreement to any Affiliate of Buyer without the consent of Seller.
+
+Section 10.6 Severability. If any provision of this Agreement is held to be invalid or unenforceable, the remaining provisions shall continue in full force and effect.
+
+IN WITNESS WHEREOF, the parties hereto have executed this Asset Purchase Agreement as of the date first written above.
+
+ACME CORPORATION
+By: _________________________
+Name: John Smith
+Title: Chief Executive Officer
+
+TECHVENTURES INC.
+By: _________________________
+Name: Jane Doe
+Title: President
