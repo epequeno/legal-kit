@@ -8,6 +8,17 @@ answer with citations you can check. No document leaves the machine.
 > [What is not in this repository](#what-is-not-in-this-repository) before trying to build it —
 > the model weights are not here and the app will not run without them.
 
+## Can you run this?
+
+**No, and the reason is stated rather than left to be discovered.** The model weights, the training and
+evaluation corpora, and the GRPO adapters are not in this repository — some for licence reasons, some
+because they were never committed. `just build` fails for exactly that reason; the full list is under
+[What is not in this repository](#what-is-not-in-this-repository).
+
+What you *can* read: the code, [`docs/history/`](docs/history/) — the decisions and what was learned —
+and the evaluation write-ups. The `justfile` (`just --list`) still describes how the app was built,
+trained and evaluated, which is a record of the work rather than a promise that it runs today.
+
 ## What it does
 
 A Rust + Tauri desktop app with an Elm frontend, running local models on Metal with an
